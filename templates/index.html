@@ -52,7 +52,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
   })(document,window.mixpanel||[]);
 
-  mixpanel.init("299e2c396d946a84c3e7978d7ce7fdbd");
+mixpanel.init(
+  "299e2c396d946a84c3e7978d7ce7fdbd",
+  {
+    api_host: "https://api-eu.mixpanel.com"
+  }
+);  
 </script>
 <!-- End Mixpanel -->
   
@@ -73,5 +78,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </body>
 </html>
+
 
 
